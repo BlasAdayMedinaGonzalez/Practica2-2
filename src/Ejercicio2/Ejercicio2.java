@@ -29,7 +29,7 @@ public class Ejercicio2 {
             }
 
             for (Process proceso: processArrayList) {
-                proceso.waitFor(500, TimeUnit.MILLISECONDS);
+                proceso.waitFor(3000, TimeUnit.MILLISECONDS);
                 System.out.println("Ha finalizado el proceso: " + proceso.pid()
                         + ", a la hora: " + LocalTime.now());
                 proceso.destroy();

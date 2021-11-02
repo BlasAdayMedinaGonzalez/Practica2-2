@@ -13,7 +13,7 @@ public class Ejercicio1 {
         try {
             System.out.println("Introduce número de ventanas:");
             int numVentanas = sc.nextInt();
-            ArrayList <Process> arrayProcesos = new ArrayList<Process>();
+            ArrayList <Process> arrayProcesos = new ArrayList<>();
 
             for (int i = 0; i < numVentanas; i++) {
                 Process process = pB.start();
